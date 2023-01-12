@@ -1,0 +1,136 @@
+@media screen and (max-width: 376px) {
+  .container {
+    width: 375px;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  main .fall-block {
+    max-width: 100%;
+    gap: 0;
+  }
+  main .fall-block .fall-text {
+    margin: 40px 0;
+    width: 80%;
+    text-align: center;
+  }
+  main .fall-block .fall-text h1 {
+    font-size: 40px;
+  }
+  main .fall-block .fall-text p {
+    font-size: 20px;
+  }
+  main .fall-block .fall-text .btn {
+    align-self: center;
+    width: 40%;
+  }
+  main .fall-block .fall-img {
+    margin: 10px 10px 50px 10px;
+  }
+  main .fall-block .fall-img img {
+    max-width: 100%;
+  }
+  main .our-block {
+    width: 90%;
+  }
+  main .our-block .our-guides {
+    margin-bottom: 70px;
+  }
+  main .our-block .our-guides .pm {
+    margin: 20px 0 20px;
+  }
+  main .our-block .our-sellers h1 {
+    margin-bottom: 30px;
+  }
+  main .cards {
+    gap: 0px;
+  }
+  main .cards .card {
+    height: auto;
+    text-align: center;
+  }
+  main .cards .card .card-text {
+    margin-bottom: 50px;
+  }
+  main .thalby-block {
+    justify-content: center;
+    width: 90%;
+    margin-top: 50px;
+    gap: 60px;
+  }
+  main .each-block {
+    position: unset;
+  }
+  main .each-block h1 {
+    margin: 180px 0 50px;
+  }
+  main .each-block .ports {
+    gap: 0;
+  }
+  main .each-block .ports .port {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  main .each-block .ports .port:nth-of-type(1)::before {
+    top: 20px;
+  }
+  main .each-block .ports .port:nth-of-type(2)::before {
+    top: 20px;
+  }
+  main .each-block .ports .port:nth-of-type(3)::before {
+    top: 20px;
+  }
+  main .each-block .ports .port h2 {
+    margin-top: 388px;
+  }
+  main .each-block .ports .port a {
+    margin: 0;
+  }
+  main .keep-block {
+    width: 90%;
+    flex-direction: row;
+  }
+  main .keep-block form {
+    width: 100%;
+  }
+  main .keep-block form .name, main .keep-block form .mail {
+    width: 90%;
+    flex-direction: row;
+  }
+
+  footer .block {
+    width: 90%;
+    margin-top: 30px;
+  }
+  footer .first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  footer .first .fim {
+    margin: 0 0 20px;
+  }
+  footer .first .footer-images {
+    margin: 0;
+  }
+  footer .second {
+    justify-content: unset;
+    text-align: center;
+  }
+  footer .second h6 {
+    margin: 20px 0 36px;
+  }
+  footer .second .about, footer .second .contact {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+  }
+  footer .llc {
+    margin-top: 20px;
+  }
+}

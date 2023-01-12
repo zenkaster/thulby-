@@ -1,0 +1,12 @@
+@mixin width($container, $block){
+    width: $block * 100% / $container;
+}
+@mixin height($container, $block){
+    height: $block * 100% / $container;
+}
+@mixin flex($jc, $ai){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: wrap;
+}

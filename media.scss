@@ -1,0 +1,141 @@
+@use 'mixin.scss';
+@media screen and (max-width:376px) {
+    .container{
+        width: 375px;
+    }
+    header{
+        nav{
+            display: none;
+        }
+    }
+    main{
+        .fall-block{
+            max-width: 100%;
+            gap:0;
+            .fall-text{
+                margin: 40px 0;
+                width: 80%;
+                text-align: center;
+                h1{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 20px;
+                }
+                .btn{
+                    align-self: center;
+                    width: 40%;
+                }
+            }
+            .fall-img{
+                margin: 10px 10px 50px 10px;
+                img{
+                    max-width: 100%;
+                }
+            }
+        }
+        .our-block{
+            width: 90%;
+            .our-guides{
+                margin-bottom: 70px;
+                .pm{
+                    margin: 20px 0 20px;
+                }
+            }
+            .our-sellers{
+                h1{
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .cards{
+            gap: 0px;
+            .card{
+                height: auto;
+                text-align: center;
+                .card-text{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        .thalby-block{
+            justify-content: center;
+            width: 90%;
+            margin-top: 50px;
+            gap: 60px;
+        }
+        .each-block{
+            position: unset;
+            h1{
+                margin: 180px 0 50px;
+            }
+            .ports{
+                gap: 0;
+                .port{
+                    position: relative;
+                    margin-bottom: 50px;
+                    &:nth-of-type(1)::before{
+                        top: 20px; 
+                    }
+                    &:nth-of-type(2)::before{
+                        top: 20px;
+                    }
+                    &:nth-of-type(3)::before{
+                        top: 20px;
+                    }
+                    h2{
+                        margin-top: 388px;
+                    }
+                    a{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .keep-block{
+            width: 90%;
+            flex-direction: row;
+            form{
+                width: 100%;
+                .name,.mail{
+                    width: 90%;
+                    flex-direction: row;
+                }
+            }
+        }
+    }
+    footer{
+        .block{
+            width: 90%;
+            margin-top: 30px
+        }
+        .first{
+            @include mixin.flex(center,center);
+            flex-direction: column;
+            .fim{
+                margin: 0 0 20px;
+            }
+            .footer-images{
+                margin: 0;
+            }
+        }
+        .second{
+            justify-content: unset;
+            text-align: center;
+            h6{
+                margin: 20px 0 36px;
+            }
+            .about,.contact{
+                width: 50%;
+                margin: 0;
+                padding: 0;
+                justify-content: start;
+            }
+        }
+        .llc{
+            margin-top: 20px;
+        }
+    }
+}
+
+

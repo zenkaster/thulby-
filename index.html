@@ -14,14 +14,20 @@
         <header>
             <nav>
                 <ul class="nav-bar">
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Collections</a></li>
-                    <li><a href="#">Try a Free Guide</a></li>
-                    <li><a href="#">Stories</a></li>
+                    <li><a href="#" data-lang="shop">Shop</a></li>
+                    <li><a href="#" data-lang="collections">Collections</a></li>
+                    <li><a href="#" data-lang="guide">Try a Free Guide</a></li>
+                    <li><a href="#" data-lang="stories">Stories</a></li>
                 </ul>
             </nav>
             <div class="head-logo">
                 <img src="./img/Rectanglehead-logo.png" alt="#">
+            </div>
+            <div class="selector">
+                <select name="lang" id="lang">
+                    <option value="en">English</option>
+                    <option value="ru">Русский</option>
+                </select>
             </div>
             <div class="head-btns">
                 <a href="#"><img src="./img/Frameinst-logo.png" alt="#"></a>
@@ -35,11 +41,11 @@
             <div class="fall-block">
                 <div class="fall-text">
                     <div class="h1">
-                        <h1>Fall deeper in love with</h1>
-                        <h1>humanity.</h1>
+                        <h1 data-lang="deeper">Fall deeper in love with</h1>
+                        <h1 data-lang="ddeaper">humanity.</h1>
                     </div>
-                    <p>Get to know the world through our concise, informative and inspiring guides.</p>
-                    <button class="btn">Shop Now</button>
+                    <p data-lang="concise">Get to know the world through our concise, informative and inspiring guides.</p>
+                    <button class="btn" data-lang="shop-btn">Shop Now</button>
                 </div>
                 <div class="fall-img">
                     <img src="./img/image 1fall-img.png" alt="#">
@@ -48,32 +54,32 @@
 
             <div class="our-block">
                 <div class="our-guides">
-                    <h1>Our guides explain countries and cultures.</h1>
-                    <p class="pm">Are you curious about the world around you? Our guides are for smart global citizens, world travelers and engaged residents who want to gain a deeper understanding of the cultures and societies they care about.</p>
-                    <p>Available as ebooks here and on Amazon.</p>
+                    <h1 data-lang="our-guides">Our guides explain countries and cultures.</h1>
+                    <p class="pm" data-lang="curious">Are you curious about the world around you? Our guides are for smart global citizens, world travelers and engaged residents who want to gain a deeper understanding of the cultures and societies they care about.</p>
+                    <p data-lang="ebooks">Available as ebooks here and on Amazon.</p>
                 </div>
                 <div class="our-sellers">
                     <div class="our-best">
-                        <h1>Our best sellers</h1>
+                        <h1 data-lang="best-seller">Our best sellers</h1>
                     </div>
                     <div class="our-sell">
                         <div>
                             <img src="./img/image 2seller1.png" alt="#">
-                            <h5>Thalby Guide to <br>French Culture and Heritage</h5>
+                            <h5 data-lang="fr-cult">Thalby Guide to <br>French Culture and Heritage</h5>
                             <p>USD 6.99</p>
-                            <a href="#">Add to cart</a>
+                            <a href="#" data-lang="add-cart">Add to cart</a>
                         </div>
                         <div>
                             <img src="./img/image 3seller2.png" alt="#">
-                            <h5>Thalby Guide to <br>French People and Society</h5>
+                            <h5 data-lang="fr-people">Thalby Guide to <br>French People and Society</h5>
                             <p>USD 6.99</p>
-                            <a href="#">Add to cart</a>
+                            <a href="#" data-lang="add-cart">Add to cart</a>
                         </div>
                         <div>
                             <img src="./img/image 4seller3.png" alt="#">
-                            <h5>Thalby Guide to <br>German Culture and Heritage</h5>
+                            <h5 data-lang="gr-cult">Thalby Guide to <br>German Culture and Heritage</h5>
                             <p>USD 6.99</p>
-                            <a href="#">Add to cart</a>
+                            <a href="#" data-lang="add-cart">Add to cart</a>
                         </div>
                     </div>
                 </div>
@@ -84,9 +90,9 @@
                         <img src="./img/Rectanglepas.png" alt="#">
                     </div>
                     <div class="card-text">
-                        <h1>People and Society</h1>
-                        <p>Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.</p>
-                        <a href="#">Shop Society Guides</a>
+                        <h1 data-lang="pip&soc">People and Society</h1>
+                        <p data-lang="guide-soc">Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.</p>
+                        <a href="#" data-lang="shop-soc">Shop Society Guides</a>
                     </div>
                 </div>
                 <div class="card cah">
@@ -94,8 +100,8 @@
                         <img src="./img/Rectanglecah.png" alt="#">
                     </div>
                     <div class="card-text">
-                        <h1>Culture and Heritage</h1>
-                        <p>As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture.</p>
+                        <h1 data-lang="cult&her">Culture and Heritage</h1>
+                        <p data-lang="guide-cult">As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture.</p>
                         <a href="#">Shop Culture Guides</a>
                     </div>
                 </div>
@@ -104,68 +110,68 @@
                         <img src="./img/Rectanglepap.png" alt="#">
                     </div>
                     <div class="card-text">
-                        <h1>Power and Politics</h1>
-                        <p>Our guides to power take you behind the scenes to explore the power dynamics, policies and politics shaping a country's future and its global position.</p>
-                        <a href="#">Coming 2022!</a>
+                        <h1 data-lang="pow&pol">Power and Politics</h1>
+                        <p data-lang="guide-pow">Our guides to power take you behind the scenes to explore the power dynamics, policies and politics shaping a country's future and its global position.</p>
+                        <a href="#" data-lang="coming">Coming 2022!</a>
                     </div>
                 </div>
             </div>
             <div class="thalby-block">
-                <h2>Some of the features that <br>make Thalby guides unique</h2>
+                <h2 data-lang="features">Some of the features that <br>make Thalby guides unique</h2>
                 <div class="thalby-block-mini">
                     <div class="circ"></div>
-                    <h1>Written by locals</h1>
+                    <h1 data-lang="locals">Written by locals</h1>
                 </div>
                 <div class="thalby-block-mini">
                     <div class="circ"></div>
-                    <h1>Packed with insight</h1>
+                    <h1 data-lang="packed">Packed with insight</h1>
                 </div>
                 <div class="thalby-block-mini">
                     <div class="circ"></div>
-                    <h1>Interviews with diverse voices</h1>
+                    <h1 data-lang="diverse">Interviews with diverse voices</h1>
                 </div>
                 <div class="thalby-block-mini">
                     <div class="circ"></div>
-                    <h1>Key facts and etiquette tips</h1>
+                    <h1 data-lang="facts">Key facts and etiquette tips</h1>
                 </div>
                 <div class="thalby-block-mini">
                     <div class="circ"></div>
-                    <h1>A concise 1-hour read</h1>
+                    <h1 data-lang="read">A concise 1-hour read</h1>
                 </div>
                 <div class="thalby-block-mini">
                     <div class="circ"></div>
-                    <h1>Instant digital access</h1>
+                    <h1 data-lang="instant">Instant digital access</h1>
                 </div>
             </div>
             <div class="each-block">
-                <h1>Each Thalby guide includes interviews with <br>a range of fascinating voices, such as</h1>
+                <h1 data-lang="each-thulby">Each Thalby guide includes interviews with <br>a range of fascinating voices, such as</h1>
                 <div class="ports">
                     <div class="port first">
-                        <h2>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</h2>
-                        <p>Camille Muller,<br>Landscape Designer, France</p>
-                        <a href="#">Discover</a>
+                        <h2 data-lang="conventional">'I don’t like things to be conventional. If it’s too nice, I bring disorder.'</h2>
+                        <p data-lang="camille">Camille Muller,<br>Landscape Designer, France</p>
+                        <a href="#" data-lang="discover">Discover</a>
                     </div>
                     <div class="port second">
-                        <h2>"Magic is not magic in the sense that I can just wish for anything."</h2>
+                        <h2 data-lang="magic">'Magic is not magic in the sense that I can just wish for anything.'</h2>
                         <p>Sonia Kowalewski,<br>Witch, Germany</p>
-                        <a href="#">Discover</a>
+                        <a href="#" data-lang="discover">Discover</a>
                     </div>
                     <div class="port third">
-                        <h2>"I was eight years old when I entered my first competition. I won it."</h2>
+                        <h2 data-lang="competition">'I was eight years old when I entered my first competition. I won it.'</h2>
                         <p>Lilly Stoephasius,<br>Skateboarder, Germany</p>
-                        <a href="#">Discover</a>
+                        <a href="#" data-lang="discover">Discover</a>
                     </div>
                 </div>
             </div>
             <div class="keep-block">
-                <h2>Keep in touch</h2>
-                <p>Get our travel advice, global views and travel freebies in your inbox</p>
+                <h2 data-lang="keep">Keep in touch</h2>
+                <p data-lang="get-our">Get our travel advice, global views and travel freebies in your inbox</p>
                 <div class="keep-form">
                     <form action="#">
-                    <input class="name" type="text" required placeholder="First Name">
-                    <input class="name" type="text" required placeholder="Last Name">
-                    <input class="mail" type="email" required placeholder="Email">
-                    <button type="submit" class="btn">Subscribe</button>
+                    <input class="name" type="text" required placeholder="First Name" data-lang="first-name">
+                    <input class="name" type="text" required placeholder="Last Name" data-lang="last-name">
+                    <input class="mail" type="email" required placeholder="Email" data-lang="email">
+                    <button type="submit" class="btn" data-lang="subs">Subscribe</button>
                 </form>
                 </div>
             </div>
@@ -180,22 +186,24 @@
             </div>
             <div class="block second">
                 <div class="about">
-                    <h6>About</h6>
+                    <h6 data-lang="about">About</h6>
                     <ul class="about-ul">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms and Conditions</a></li>
-                        <li><a href="#">Write for Us</a></li>
+                        <li><a href="#" data-lang="about">About Us</a></li>
+                        <li><a href="#" data-lang="policy">Privacy Policy</a></li>
+                        <li><a href="#" data-lang="terms">Terms and Conditions</a></li>
+                        <li><a href="#" data-lang="write">Write for Us</a></li>
                     </ul>
                 </div>
                 <div class="contact">
-                    <h6>Contact</h6>
-                    <a href="#">Email hi@thalby.com</a>
-                    <a href="#">Help</a>
+                    <h6 data-lang="сontact">Contact</h6>
+                    <a href="#" data-lang="our-mail">Email hi@thalby.com</a>
+                    <a href="#" data-lang="help">Help</a>
                 </div>
             </div>
             <h1 class="llc">Thalby LLC © 2021</h1>
         </footer>
     </div>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>

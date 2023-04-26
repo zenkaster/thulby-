@@ -1,0 +1,214 @@
+{
+    "shop": {
+        "en": "Shop",
+        "ru": "Магазин"
+    },
+    "collections": {
+        "en": "Collections",
+        "ru": "Коллекция"
+    },
+    "guide": {
+        "en": "Try a Free Guide",
+        "ru": "Попробуй Гайд"
+    },
+    "stories": {
+        "en": "Stories",
+        "ru": "Истории"
+    },
+    "deeper": {
+        "en": "Fall deeper in love with",
+        "ru": "Еще глубже влюбиться в"
+    },
+    "ddeaper": {
+        "en": "humanity.",
+        "ru": "человечество."
+    },
+    "concise": {
+        "en": "Get to know the world through our concise, informative and inspiring guides.",
+        "ru": "Познакомьтесь с миром с помощью наших кратких, информативных и вдохновляющих путеводителей."
+    },
+    "shop-btn":{
+        "en":"Shop Now",
+        "ru":"Купить сейчас"
+    },
+    "our-guides":{
+        "en":"Our guides explain countries and cultures.",
+        "ru":"Наши гиды рассказывают о странах и культурах."
+    },
+    "curious":{
+        "en":"Are you curious about the world around you? Our guides are for smart global citizens, world travelers and engaged residents who want to gain a deeper understanding of the cultures and societies they care about.",
+        "ru":"Вам любопытен окружающий вас мир? Наши гиды предназначены для умных граждан мира, путешественников по всему миру и неравнодушных жителей, которые хотят получить более глубокое представление о культурах и обществах, которые им небезразличны."
+    },
+    "ebooks":{
+        "en":"Available as ebooks here and on Amazon.",
+        "ru":"Доступно в виде электронных книг здесь и на Amazon."
+    },
+    "best-seller":{
+        "en":"Our best sellers",
+        "ru":"Наши лучшие продавцы"
+    },
+    "fr-cult":{
+        "en":"Thalby Guide to <br>French Culture and Heritage",
+        "ru":"Полезный путеводитель по <br>Французской культуре и наследию"
+    },
+    "add-cart":{
+        "en":"Add to cart",
+        "ru":"Добавить в корзину"
+    },
+    "fr-people":{
+        "en":"Thalby Guide to <br>French People and Society",
+        "ru":"Полезный путеводитель по ЗОЖ <br>французского народа и общества"
+    },
+    "gr-cult":{
+        "en":"Thalby Guide to <br>German Culture and Heritage",
+        "ru":"Полезный путеводитель <br>по немецкой культуре и наследию"
+    },
+    "pip&soc":{
+        "en":"People and Society",
+        "ru":"Люди и общество"
+    },
+    "guide-soc":{
+        "en":"Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.",
+        "ru":"Наши путеводители по обществу дают вам всю необходимую социальную информацию, помогая понять, как люди живут, любят и развлекаются сегодня и почему сообщества такие, какие они есть."
+    },
+    "shop-soc":{
+        "en":"Shop Society Guides",
+        "ru":"Купить социальный гайд"
+    },
+    "cult&her":{
+        "en":"Culture and Heritage",
+        "ru":"Культура и наследие"
+    },
+    "guide-cult":{
+        "en":"As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture.",
+        "ru":"Наши путеводители по культуре не только рассказывают о наследии и традициях, но и знакомят вас с дизайнерами, художниками и шеф-поварами, создающими на переднем крае современной культуры."
+    },
+    "shop-cult":{
+        "en":"Shop Culture Guides",
+        "ru":"Купить культурный гайд"
+    },
+    "pow&pol":{
+        "en":"Power and Politics",
+        "ru":"Власть и политика"
+    },
+    "guide-pow":{
+        "en":"Our guides to power take you behind the scenes to explore the power dynamics, policies and politics shaping a country's future and its global position.",
+        "ru":"Наши путеводители по власти проведут вас за кулисы, чтобы изучить динамику власти, политику, определяющую будущее страны и ее глобальное положение."
+    },
+    "coming":{
+        "en":"Coming 2022!",
+        "ru":"Будет в 2022 году!"
+    },
+    "features":{
+        "en":"Some of the features that <br>make Thalby guides unique",
+        "ru":"Некоторые из особенностей, которые <br>делают Thalby гайды уникальными"
+    },
+    "locals":{
+        "en":"Written by locals",
+        "ru":"Написано местными жителями"
+    },
+    "packed":{
+        "en":"Packed with insight",
+        "ru":"Наполнено проницательностью"
+    },
+    "diverse":{
+        "en":"Interviews with diverse voices",
+        "ru":"Интервью с разными голосами"
+    },
+    "facts":{
+        "en":"Key facts and etiquette tips",
+        "ru":"Ключевые факты и советы по этикету"
+    },
+    "read":{
+        "en":"A concise 1-hour read",
+        "ru":"Краткое 1-часовое чтение"
+    },
+    "instant":{
+        "en":"Instant digital access",
+        "ru":"Мгновенный цифровой доступ"
+    },
+    "each-thulby":{
+        "en":"Each Thalby guide includes interviews with <br>a range of fascinating voices, such as",
+        "ru":"Каждый путеводитель по Thulby включает интервью с <br>целым рядом завораживающих голосов, таких как"
+    },
+    "conventional":{
+        "en":"'I don’t like things to be conventional. If it’s too nice, I bring disorder.'",
+        "ru":"'Я не люблю, когда все становится обычным. Если это слишком мило, я приношу беспорядок.'"
+    },
+    "camille":{
+        "en":"Camille Muller,<br>Landscape Designer, France",
+        "ru":"Камиль Мюллер,<br>ландшафтный дизайнер, Франция"
+    },
+    "discover":{
+        "en":"Discover",
+        "ru":"Узнать"
+    },
+    "magic":{
+        "en":"'Magic is not magic in the sense that I can just wish for anything.'",
+        "ru":"'Магия - это не магия в том смысле, что я могу просто пожелать чего угодно.'"
+    },
+    "sonia":{
+        "en":"Sonia Kowalewski,<br>Witch, Germany",
+        "ru":"Соня Ковалевски,<br>ведьма, Германия"
+    },
+    "competition":{
+        "en":"'I was eight years old when I entered my first competition. I won it.'",
+        "ru":"'Мне было восемь лет, когда я принял участие в своем первом соревновании. Я выиграл его.'"
+    },
+    "lilly":{
+        "en":"Lilly Stoephasius,<br>Skateboarder, Germany",
+        "ru":"Лилли Стефасиус,<br>скейтбордистка, Германия"
+    },
+    "keep":{
+        "en":"Keep in touch",
+        "ru":"Поддерживать связь"
+    },
+    "get-our":{
+        "en":"Get our travel advice, global views and travel freebies in your inbox",
+        "ru" :"Получите наши советы по путешествиям, глобальные обзоры и бесплатные подарки для путешествий в свой почтовый ящик"
+    },
+    "first-name":{
+        "en":"First Name",
+        "ru":"Имя"
+    },
+    "last-name":{
+        "en":"Last-name",
+        "ru":"Фамилия"
+    },
+    "email":{
+        "en":"Email",
+        "ru":"Почта"
+    },
+    "subs":{
+        "en":"Subscribe",
+        "ru":"Подписаться"
+    },
+    "about":{
+        "en":"About Us",
+        "ru":"О нас"
+    },
+    "policy":{
+        "en":"Privacy Policy",
+        "ru":"Политика Конфиденциальности"
+    },
+    "terms":{
+        "en":"Terms and Conditions",
+        "ru":"Условия и Положения"
+    },
+    "write":{
+        "en":"Write for Us",
+        "ru":"Написать Нам"
+    },
+    "сontact":{
+        "en":"Contact",
+        "ru":"Контакты"
+    },
+    "our-mail":{
+        "en":"Email hi@thalby.com",
+        "ru":"Почта hi@thalby.com"
+    },
+    "help":{
+        "en":"Help",
+        "ru":"Помощь"
+    }
+}

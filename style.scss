@@ -43,10 +43,13 @@ header{
     }
     .head-logo{
         @include mixin.flex(center,center);
-        margin: 16px 379px 15px 83px;
+        margin: 16px 0 15px 83px;
         width: 80px;
         height: 25px;
 
+    }
+    .selector{
+        margin: 0px 110px 0 170px;
     }
     .head-btns{
         @include mixin.flex(center,center);

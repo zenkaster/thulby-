@@ -88,6 +88,51 @@
   main .each-block .ports .port a {
     margin: 0;
   }
+  main .keep-block {
+    width: 90%;
+    flex-direction: row;
+  }
+  main .keep-block form {
+    width: 100%;
+  }
+  main .keep-block form .name, main .keep-block form .mail {
+    width: 90%;
+    flex-direction: row;
+  }
+
+  footer .block {
+    width: 90%;
+    margin-top: 30px;
+  }
+  footer .first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  footer .first .fim {
+    margin: 0 0 20px;
+  }
+  footer .first .footer-images {
+    margin: 0;
+  }
+  footer .second {
+    justify-content: unset;
+    text-align: center;
+  }
+  footer .second h6 {
+    margin: 20px 0 36px;
+  }
+  footer .second .about, footer .second .contact {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+  }
+  footer .llc {
+    margin-top: 20px;
+  }
 }
 * {
   box-sizing: border-box;
@@ -145,9 +190,12 @@ header .head-logo {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 16px 379px 15px 83px;
+  margin: 16px 0 15px 83px;
   width: 80px;
   height: 25px;
+}
+header .selector {
+  margin: 0px 110px 0 170px;
 }
 header .head-btns {
   display: flex;
